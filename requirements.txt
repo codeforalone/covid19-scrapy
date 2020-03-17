@@ -1,0 +1,6 @@
+tabula-py
+beautifulsoup4
+html5lib
+urllib3
+googletrans
+xlrd

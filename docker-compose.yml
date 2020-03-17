@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  scrapy:
+    container_name: scrapy
+    build:
+      context: .
+      dockerfile: scrapy.Dockerfile
+    tty: true
+    volumes:
+      - ./data:/data
+      - ./tools:/tools
+    environment:
+      - CODE4NAGOYA=True
